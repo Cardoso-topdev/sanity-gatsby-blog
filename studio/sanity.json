@@ -14,6 +14,7 @@
     "@sanity/default-login",
     "@sanity/dashboard",
     "@sanity/desk-tool",
+    "media-library",
     "dashboard-widget-structure-menu",
     "dashboard-widget-document-list",
     "dashboard-widget-netlify"
@@ -34,6 +35,10 @@
     {
       "implements": "part:@sanity/dashboard/config",
       "path": "./src/dashboardConfig.js"
+    },
+    {
+      "implements": "part:@sanity/form-builder/input/image/asset-source",
+      "path": "./assetSource.js"
     }
   ]
 }
