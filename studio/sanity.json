@@ -35,10 +35,6 @@
     {
       "implements": "part:@sanity/dashboard/config",
       "path": "./src/dashboardConfig.js"
-    },
-    {
-      "implements": "part:@sanity/form-builder/input/image/asset-source",
-      "path": "./assetSource.js"
     }
   ]
 }
